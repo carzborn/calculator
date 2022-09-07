@@ -5,6 +5,7 @@ const evaluate = (state) => {
   let last = parseFloat(lastOperand);
   let current = parseFloat(currentOperand);
   let res = "";
+  // eslint-disable-next-line
   switch (operation) {
     case "+":
       res = last + current;
